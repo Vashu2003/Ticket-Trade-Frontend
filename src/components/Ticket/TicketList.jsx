@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getAllTickets } from '../../api/ticketService';
+import { getAllTickets } from '../../service/ticketService';
 
 export default function TicketList({ onSelect, onEdit }) {
   const [tickets, setTickets] = useState([]);

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { createTicket } from '../../api/ticketService';
+import { createTicket } from '../../service/ticketService';
 
 export default function AddTicket({ onSuccess }) {
   const [form, setForm] = useState({
